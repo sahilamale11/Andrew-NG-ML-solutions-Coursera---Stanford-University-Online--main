@@ -1,0 +1,1 @@
+[u v]=eig(magic(2))
