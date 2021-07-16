@@ -1,0 +1,11 @@
+% % a=rand(5,3)
+% % val=min(a(:,3))
+% A = randi(124,31,80);
+% C = randi(50,30,81);
+% cu = unique(C)
+% [aa,ii] = ismember(A,cu)
+% [i1,j1] = find(aa)
+% out = [cu(ii(aa)),i1,j1]
+a=[2 10 4]
+b=zeros(10,1);
+b(a)=1
